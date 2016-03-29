@@ -1,4 +1,11 @@
-knowledgejunkie-dotfiles-deps (0.1) UNRELEASED; urgency=medium
+knowledgejunkie-dotfiles-deps (0.2) unstable; urgency=medium
+
+  * New release.
+  + add irssi
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 29 Mar 2016 11:10:03 +0000
+
+knowledgejunkie-dotfiles-deps (0.1) unstable; urgency=medium
 
   * Initial release.
 

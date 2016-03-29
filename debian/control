@@ -8,10 +8,11 @@ Vcs-Git: https://github.com/knowledgejunkie/dotfiles-deps.git
 
 Package: knowledgejunkie-dotfiles-deps
 Architecture: all
-Depends: xmonad, rxvt-unicode-256color, zsh, tmux, git, ack-grep, exuberant-ctags,
-    vim-gtk, xml-twig-tools, build-essential, libclang1, libclang-dev, libboost-all-dev, cmake, python-dev,
-    x11-utils, evtest, xbindkeys, xdotool,
-    abcde, imagemagick, libimage-exiftool-perl, libfont-freetype-perl
+Depends: xmonad, rxvt-unicode-256color, zsh, tmux, git, ack-grep,
+         exuberant-ctags, vim-gtk, xml-twig-tools, build-essential, libclang1,
+         libclang-dev, libboost-all-dev, cmake, python-dev, x11-utils, evtest,
+         xbindkeys, xdotool, abcde, imagemagick, libimage-exiftool-perl,
+         libfont-freetype-perl, irssi
 Description: Metapackage to install dependencies for knowledgejunkie's dotfiles
  A metapackage to install applications and libraries configured with
  knowledgejunkie's dotfiles
