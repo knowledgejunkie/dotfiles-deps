@@ -1,32 +1,38 @@
-knowledgejunkie-dotfiles-deps (0.5) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.6-1) unstable; urgency=medium
+
+  * Add tmuxinator
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 24 Jul 2016 01:09:37 +0100
+
+knowledgejunkie-dotfiles-deps (0.5-1) unstable; urgency=medium
 
   * New release.
   + add silversearcher-ag
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 09 May 2016 16:31:03 +0100
 
-knowledgejunkie-dotfiles-deps (0.4) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.4-1) unstable; urgency=medium
 
   * New release.
   + update libclang dep to 3.8 for YCM
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 25 Apr 2016 12:46:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.3) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.3-1) unstable; urgency=medium
 
   * New release.
   + add scrot and feh
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 25 Apr 2016 10:14:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.2) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.2-1) unstable; urgency=medium
 
   * New release.
   + add irssi
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 29 Mar 2016 11:10:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.1-1) unstable; urgency=medium
 
   * Initial release.
 
