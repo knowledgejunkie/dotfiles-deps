@@ -1,3 +1,9 @@
+knowledgejunkie-dotfiles-deps (0.7-1) unstable; urgency=medium
+
+  * Add python-pygments
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Wed, 23 Nov 2016 10:24:15 +0000
+
 knowledgejunkie-dotfiles-deps (0.6-1) unstable; urgency=medium
 
   * Add tmuxinator
