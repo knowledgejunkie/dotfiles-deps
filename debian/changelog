@@ -1,3 +1,11 @@
+knowledgejunkie-dotfiles-deps (0.8-1) unstable; urgency=medium
+
+  * New release.
+  + Add i3 window manager and associated packages
+  + Update README.md
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 13 Aug 2017 15:13:42 +0100
+
 knowledgejunkie-dotfiles-deps (0.7-1) unstable; urgency=medium
 
   * Add python-pygments
