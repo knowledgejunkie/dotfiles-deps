@@ -7,7 +7,7 @@ for use with knowledgejunkie's [dotfiles][dotfiles].
 
 Packages installed with this metapackage include:
 
-- xmonad
+- i3
 - rxvt-unicode-256color
 - zsh
 - tmux
@@ -35,7 +35,7 @@ To clean the build directory afterwards, run:
 
 ## Installing the metapackage
 
-We can intall the local package using dpkg, and then install the missing dependencies using apt-get:
+We can install the local package using dpkg, and then install the missing dependencies using apt-get:
 
     # dpkg --install /path/to/knowledgejunkie-dotfiles-deps_0.x_all.deb
     # apt-get -f install

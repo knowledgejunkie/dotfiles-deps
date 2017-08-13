@@ -1,18 +1,21 @@
 Source: knowledgejunkie-dotfiles-deps
 Section: metapackages
 Priority: optional
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
 Vcs-Browser: https://github.com/knowledgejunkie/dotfiles-deps
 Vcs-Git: https://github.com/knowledgejunkie/dotfiles-deps.git
 
 Package: knowledgejunkie-dotfiles-deps
 Architecture: all
-Depends: xmonad, rxvt-unicode-256color, zsh, tmux, git, ack-grep, silversearcher-ag,
+Depends: rxvt-unicode-256color, zsh, tmux, git, ack-grep, silversearcher-ag,
          exuberant-ctags, vim-gtk, xml-twig-tools, build-essential,
          libclang-3.8-dev, libboost-all-dev, cmake, python-dev, x11-utils, evtest,
          xbindkeys, xdotool, xsel, abcde, imagemagick, libimage-exiftool-perl,
-         libfont-freetype-perl, irssi, scrot, feh, tmuxinator, python-pygments
+         libfont-freetype-perl, irssi, scrot, feh, tmuxinator, python-pygments,
+         i3, i3blocks, rofi, compton, xautolock, tlp, thinkfan, fonts-font-awesome
 Description: Metapackage to install dependencies for knowledgejunkie's dotfiles
  A metapackage to install applications and libraries configured with
- knowledgejunkie's dotfiles
+ knowledgejunkie's dotfiles:
+ .
+ https://github.com/knowledgejunkie/dotfiles

@@ -4,11 +4,11 @@ Upstream-Contact: Nick Morrott <knowledgejunkie@gmail.com>
 Source: https://github.com/knowledgejunkie/packaging-deps
 
 Files: *
-Copyright: 2016 Nick Morrott <knowledgejunkie@gmail.com>
+Copyright: 2016-17 Nick Morrott <knowledgejunkie@gmail.com>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2016 Nick Morrott <knowledgejunkie@gmail.com>
+Copyright: 2016-17 Nick Morrott <knowledgejunkie@gmail.com>
 License: GPL-2+
 
 License: GPL-2+
