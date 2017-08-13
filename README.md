@@ -24,18 +24,24 @@ Packages installed with this metapackage include:
 
 A simple way to build the binary package is to change to the checkout directory and run:
 
-    $ debuild -i -I -uc -us -b
+    $ debuild -uc -us -b
 
 This will generate the binary .deb file in the checkout's parent directory.
 
 To clean the build directory afterwards, run:
 
     $ debuild clean
+    $ git clean -fd
 
 
 ## Installing the metapackage
 
-We can install the local package using dpkg, and then install the missing dependencies using apt-get:
+We can install the local package using gdebi, which will pull in missing dependencies
+automatically as necessary:
+
+    # gdebi /path/to/knowledgejunkie-dotfiles-deps_0.x_all.deb
+
+Alternatively, we can use dpkg and apt-get to satisfy missing dependencies manually:
 
     # dpkg --install /path/to/knowledgejunkie-dotfiles-deps_0.x_all.deb
     # apt-get -f install
@@ -46,11 +52,16 @@ We can install the local package using dpkg, and then install the missing depend
 GPL-2+
 
 
+## TODO
+
+- port to gbp
+
+
 ## Thanks
 
 I hope you find this metapackage useful. Feel free to follow me on [GitHub][github] and [Twitter][twitter].
 
-[debian]: http://www.debian.org/
+[debian]: https://www.debian.org/
 [dotfiles]: https://github.com/knowledgejunkie/dotfiles
 [github]: https://github.com/knowledgejunkie
-[twitter]: http://twitter.com/nickmorrott
+[twitter]: https://twitter.com/nickmorrott
