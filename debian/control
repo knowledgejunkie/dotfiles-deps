@@ -10,7 +10,7 @@ Package: knowledgejunkie-dotfiles-deps
 Architecture: all
 Depends: rxvt-unicode-256color, zsh, tmux, git, ack-grep, silversearcher-ag,
          exuberant-ctags, vim-gtk, tidy, xml-twig-tools, build-essential,
-         libclang-3.8-dev, libboost-all-dev, cmake, python-dev, x11-utils, evtest,
+         libclang-dev, libboost-all-dev, cmake, python-dev, x11-utils, evtest,
          xbindkeys, xdotool, xsel, abcde, imagemagick, libimage-exiftool-perl,
          libfont-freetype-perl, irssi, scrot, feh, tmuxinator, python-pygments,
          i3, i3blocks, rofi, compton, xautolock, tlp, thinkfan, fonts-font-awesome,
