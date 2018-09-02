@@ -1,16 +1,16 @@
-knowledgejunkie-dotfiles-deps (0.10-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.10) unstable; urgency=medium
 
   * Update libclang dependency to provide default version
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Sat, 17 Feb 2018 21:00:45 +0000
 
-knowledgejunkie-dotfiles-deps (0.9-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.9) unstable; urgency=medium
 
   * Add light* utils, tidy, rename, cpu microcode
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 26 Nov 2017 17:34:55 +0000
 
-knowledgejunkie-dotfiles-deps (0.8-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.8) unstable; urgency=medium
 
   * New release.
   + Add i3 window manager and associated packages
@@ -18,47 +18,47 @@ knowledgejunkie-dotfiles-deps (0.8-1) unstable; urgency=medium
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 13 Aug 2017 15:13:42 +0100
 
-knowledgejunkie-dotfiles-deps (0.7-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.7) unstable; urgency=medium
 
   * Add python-pygments
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Wed, 23 Nov 2016 10:24:15 +0000
 
-knowledgejunkie-dotfiles-deps (0.6-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.6) unstable; urgency=medium
 
   * Add tmuxinator
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 24 Jul 2016 01:09:37 +0100
 
-knowledgejunkie-dotfiles-deps (0.5-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.5) unstable; urgency=medium
 
   * New release.
   + add silversearcher-ag
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 09 May 2016 16:31:03 +0100
 
-knowledgejunkie-dotfiles-deps (0.4-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.4) unstable; urgency=medium
 
   * New release.
   + update libclang dep to 3.8 for YCM
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 25 Apr 2016 12:46:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.3-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.3) unstable; urgency=medium
 
   * New release.
   + add scrot and feh
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Mon, 25 Apr 2016 10:14:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.2-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.2) unstable; urgency=medium
 
   * New release.
   + add irssi
 
  -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 29 Mar 2016 11:10:03 +0000
 
-knowledgejunkie-dotfiles-deps (0.1-1) unstable; urgency=medium
+knowledgejunkie-dotfiles-deps (0.1) unstable; urgency=medium
 
   * Initial release.
 

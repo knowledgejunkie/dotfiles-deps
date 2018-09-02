@@ -2,59 +2,44 @@
 
 ## Description
 
-A [Debian GNU/Linux][debian] metapackage to install applications and dependencies
-for use with knowledgejunkie's [dotfiles][dotfiles].
+A [Debian GNU/Linux][debian] metapackage to install applications and
+dependencies for use with knowledgejunkie's [dotfiles][dotfiles].
 
 Packages installed with this metapackage include:
 
-- i3
-- rxvt-unicode-256color
+- i3, i3blocks, rofi, compton, lightdm, light-locker, udiskie, connman-ui
+- tmux, tmuxinator
+- rxvt-unicode
 - zsh
-- tmux
-- git
-- ack-grep
-- exuberant-ctags
 - vim-gtk
-- build-essential
-- libclang1
-- cmake
+- git
+- ripgrep
+- exuberant-ctags
+- build-essential, cmake, libclang1
+- ranger, sxiv, zathura
 
 
 ## Building the metapackage
 
-A simple way to build the binary package is to change to the checkout directory and run:
+Build the binary package using git-buildpackge:
 
-    $ debuild -uc -us -b
+    $ gbp buildpackage
 
-This will generate the binary .deb file in the checkout's parent directory.
-
-To clean the build directory afterwards, run:
-
-    $ debuild clean
-    $ git clean -fd
+This will generate the binary .deb in gbp's configured output directory.
 
 
 ## Installing the metapackage
 
-We can install the local package using gdebi, which will pull in missing dependencies
-automatically as necessary:
+We can install the package using gdebi, which will automatically install
+any missing dependencies
 
-    # gdebi /path/to/knowledgejunkie-dotfiles-deps_0.x_all.deb
-
-Alternatively, we can use dpkg and apt-get to satisfy missing dependencies manually:
-
-    # dpkg --install /path/to/knowledgejunkie-dotfiles-deps_0.x_all.deb
-    # apt-get -f install
+    # gdebi knowledgejunkie-dotfiles-deps-<version>.deb
 
 
 ## License
 
-GPL-2+
-
-
-## TODO
-
-- port to gbp
+Copyright: 2016-18, Nick Morrott <knowledgejunkie@gmail.com>
+License: GPL-2+
 
 
 ## Thanks
