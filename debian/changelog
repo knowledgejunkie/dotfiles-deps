@@ -1,3 +1,10 @@
+knowledgejunkie-dotfiles-deps (0.11) unstable; urgency=medium
+
+  * Update required dependencies
+  * Improved Debianisation and gbp integration
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 02 Sep 2018 04:42:40 +0100
+
 knowledgejunkie-dotfiles-deps (0.10) unstable; urgency=medium
 
   * Update libclang dependency to provide default version
