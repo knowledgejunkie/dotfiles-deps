@@ -19,6 +19,7 @@ Depends:
  connman-ui,
  evtest,
  exuberant-ctags,
+ fd-find,
  feh,
  fonts-font-awesome,
  git,
