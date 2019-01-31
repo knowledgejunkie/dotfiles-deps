@@ -10,18 +10,17 @@ Build-Depends: debhelper (>= 11)
 Package: knowledgejunkie-dotfiles-deps
 Architecture: all
 Depends:
- ${misc:Depends},
  abcde,
  alsa-utils,
  build-essential,
  cmake,
  compton,
- connman-ui,
+ connman-gtk | connman-ui,
  evtest,
  exuberant-ctags,
- fd-find,
  feh,
  fonts-font-awesome,
+ fonts-inconsolata,
  git,
  git-hub,
  i3,
@@ -29,8 +28,8 @@ Depends:
  imagemagick,
  intel-microcode,
  irssi,
- jq,
  libboost-all-dev,
+ libcapture-tiny-perl,
  libclang1,
  libfont-freetype-perl,
  libimage-exiftool-perl,
@@ -40,12 +39,12 @@ Depends:
  playerctl,
  pulseaudio,
  pulseaudio-utils,
- python-all-dev,
  python3-all-dev,
+ python3-pygments,
+ python-all-dev,
  python-pygments,
  ranger,
  rename,
- ripgrep | silversearcher-ag | ack | ack-grep,
  rofi,
  rxvt-unicode | rxvt-unicode-256color,
  scrot,
@@ -66,6 +65,15 @@ Depends:
  xsel,
  zathura,
  zsh,
+ ${misc:Depends},
+Recommends:
+ fd-find,
+ fzf,
+ gron,
+ jq,
+ ripgrep,
+Suggests:
+ silversearcher-ag | ack | ack-grep,
 Homepage: https://github.com/knowledgejunkie/dotfiles
 Description: metapackage to install dependencies for knowledgejunkie's dotfiles
  A metapackage to install applications and libraries configured with
