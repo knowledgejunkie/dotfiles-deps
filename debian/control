@@ -69,11 +69,11 @@ Depends:
  ${misc:Depends},
 Recommends:
  fd-find,
- fzf,
  gron,
  jq,
  ripgrep,
 Suggests:
+ fzf,
  silversearcher-ag | ack | ack-grep,
 Homepage: https://github.com/knowledgejunkie/dotfiles
 Description: metapackage to install dependencies for knowledgejunkie's dotfiles
