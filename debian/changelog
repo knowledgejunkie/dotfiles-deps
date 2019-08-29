@@ -1,3 +1,20 @@
+knowledgejunkie-dotfiles-deps (0.13) unstable; urgency=medium
+
+  * Bump debhelper compatibility version to 12
+  * Declare compliance with Debian Policy 4.4.0
+  * Add screenfetch
+  * Drop fzf to a suggested dependency
+  * apt: add testing pinning file
+  * apt: update sources file for bullseye
+  * systemd: add connman-resume.service configuration
+  * X11: add 20-intel.conf config
+  * X11: add 90-evoluent.conf config
+  * udev: add 99-keymap.rules for MS 4000 Zoom slider
+  * udev: add 99-ssd-scheduler.rules to use deadline I/O scheduler
+  * Add linitian overrides (local sysadmin usage)
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 29 Aug 2019 13:19:05 +0100
+
 knowledgejunkie-dotfiles-deps (0.12) unstable; urgency=medium
 
   * Declare compliance with Debian Policy 4.3.0
