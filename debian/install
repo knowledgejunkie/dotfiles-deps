@@ -2,3 +2,4 @@ etc/apt/preferences.d/10-testing-pinning    etc/apt/preferences.d/
 etc/apt/sources.list                        etc/apt/
 etc/systemd/system/connman-resume.service   etc/systemd/system/
 etc/X11/xorg.conf.d/20-intel.conf           etc/X11/xorg.conf.d/
+etc/X11/xorg.conf.d/90-evoluent.conf        etc/X11/xorg.conf.d/
