@@ -5,7 +5,7 @@ Standards-Version: 4.3.0
 Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
 Vcs-Browser: https://github.com/knowledgejunkie/dotfiles-deps
 Vcs-Git: https://github.com/knowledgejunkie/dotfiles-deps.git
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper-compat (= 12)
 
 Package: knowledgejunkie-dotfiles-deps
 Architecture: all
