@@ -1,2 +1,3 @@
 etc/apt/preferences.d/10-testing-pinning    etc/apt/preferences.d/
 etc/apt/sources.list                        etc/apt/
+etc/systemd/system/connman-resume.service   etc/systemd/system/
