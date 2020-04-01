@@ -1,7 +1,7 @@
 Source: knowledgejunkie-dotfiles-deps
 Section: metapackages
 Priority: optional
-Standards-Version: 4.4.0
+Standards-Version: 4.5.0
 Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
 Vcs-Browser: https://github.com/knowledgejunkie/dotfiles-deps
 Vcs-Git: https://github.com/knowledgejunkie/dotfiles-deps.git
