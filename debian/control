@@ -3,8 +3,8 @@ Section: metapackages
 Priority: optional
 Standards-Version: 4.5.0
 Maintainer: Nick Morrott <nickm@debian.org>
-Vcs-Browser: https://github.com/knowledgejunkie/dotfiles-deps
-Vcs-Git: https://github.com/knowledgejunkie/dotfiles-deps.git
+Vcs-Browser: https://github.com/knowledgejunkie/knowledgejunkie-dotfiles-deps
+Vcs-Git: https://github.com/knowledgejunkie/knowledgejunkie-dotfiles-deps.git
 Build-Depends: debhelper-compat (= 12)
 
 Package: knowledgejunkie-dotfiles-deps
