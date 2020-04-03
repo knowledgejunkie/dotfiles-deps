@@ -1,14 +1,14 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: knowledgejunkie-packaging-deps
 Upstream-Contact: Nick Morrott <knowledgejunkie@gmail.com>
-Source: https://github.com/knowledgejunkie/packaging-deps
+Source: https://github.com/knowledgejunkie/knowledgejunkie-packaging-deps
 
 Files: *
-Copyright: 2016-19, Nick Morrott <knowledgejunkie@gmail.com>
+Copyright: 2016-20, Nick Morrott <nickm@debian.org>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2016-19, Nick Morrott <knowledgejunkie@gmail.com>
+Copyright: 2016-20, Nick Morrott <nickm@debian.org>
 License: GPL-2+
 
 License: GPL-2+
