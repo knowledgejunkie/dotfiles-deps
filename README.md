@@ -33,12 +33,12 @@ This will generate the binary .deb in gbp's configured output directory.
 We can install the package using gdebi, which will automatically install
 any missing dependencies
 
-    # gdebi knowledgejunkie-dotfiles-deps-<version>.deb
+    # gdebi knowledgejunkie-dotfiles-deps_<version>_all.deb
 
 
 ## License
 
-Copyright: 2016-18, Nick Morrott <knowledgejunkie@gmail.com>
+Copyright: 2016-20, Nick Morrott <nickm@debian.org>
 License: GPL-2+
 
 
