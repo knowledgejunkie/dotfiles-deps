@@ -4,4 +4,3 @@
 udev-rule-in-etc
 systemd-service-file-outside-lib
 systemd-service-file-refers-to-unusual-wantedby-target
-systemd-service-file-missing-documentation-key
