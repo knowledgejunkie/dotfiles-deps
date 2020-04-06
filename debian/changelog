@@ -1,3 +1,27 @@
+knowledgejunkie-dotfiles-deps (0.14) unstable; urgency=medium
+
+  * d/control:
+    - Declare compliance with Debian Policy 4.5.0
+    - Migrate to my Debian email address
+    - Refresh dependencies post-Buster release
+    - Refresh VCS links
+    - Add Rules-Requires-Root field
+    - Refresh dependencies
+  * d/copyright:
+    - Refresh years of copyright and email
+  * d/rules:
+    - Remove cruft
+  * README:
+    - refresh years of copyright and email
+    - fix typo
+  * apt:
+    - Install aptitude customisations
+    - Migrate apt configurations to separate package
+  * systemd:
+    - Refresh connman-resume.service configuration
+
+ -- Nick Morrott <nickm@debian.org>  Mon, 06 Apr 2020 16:42:15 +0100
+
 knowledgejunkie-dotfiles-deps (0.13) unstable; urgency=medium
 
   * Bump debhelper compatibility version to 12
