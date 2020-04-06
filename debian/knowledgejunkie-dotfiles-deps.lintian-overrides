@@ -1,8 +1,6 @@
 # this metapackage is for me, acting as the local administrator to install
 # the customised configuration
 #
-package-installs-apt-preferences
-package-installs-apt-sources
 udev-rule-in-etc
 systemd-service-file-outside-lib
 systemd-service-file-refers-to-unusual-wantedby-target
