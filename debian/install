@@ -1,4 +1,5 @@
 etc/apt/apt.conf.d/99aptitude-customisations    etc/apt/apt.conf.d/
+etc/docker/daemon.json                          etc/docker/
 etc/systemd/system/connman-resume.service       etc/systemd/system/
 etc/udev/rules.d/99-keymap.rules                etc/udev/rules.d/
 etc/udev/rules.d/99-ssd-scheduler.rules         etc/udev/rules.d/

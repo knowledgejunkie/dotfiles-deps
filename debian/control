@@ -18,6 +18,7 @@ Depends:
  compton,
  connman-gtk,
  dialog,
+ docker.io,
  evtest,
  exuberant-ctags,
  fd-find,
