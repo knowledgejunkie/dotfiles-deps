@@ -13,6 +13,7 @@ Architecture: all
 Depends:
  abcde,
  alsa-utils,
+ autofs,
  build-essential,
  cmake,
  compton,
