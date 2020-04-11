@@ -1,4 +1,6 @@
 etc/apt/apt.conf.d/99aptitude-customisations    etc/apt/apt.conf.d/
+etc/auto.master.d/media.autofs                  etc/auto.master.d/
+etc/auto.media                                  etc/
 etc/docker/daemon.json                          etc/docker/
 etc/systemd/system/connman-resume.service       etc/systemd/system/
 etc/udev/rules.d/99-keymap.rules                etc/udev/rules.d/
